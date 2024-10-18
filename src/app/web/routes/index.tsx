@@ -1,11 +1,11 @@
-import ExamplePage from "@screens/ExamplePage.tsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "@screens/Home.tsx";
 
 export default function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path={"/"} element={<ExamplePage />} />
+                <Route path={"/"} element={<Home />} />
             </Routes>
         </BrowserRouter>
     );
